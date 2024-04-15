@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 7px;
+    background-color: rgb(52, 201, 104);
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.nav div{
+    color: rgb(241, 76, 244);
+    padding: 10px;
+    border-radius: 9px;
+    color: aliceblue;
+
+}
+.nav div a{
+    text-decoration: none;
+    background-color: rgb(157, 41, 196);
+    padding: 8px;
+    border-radius: 9px;
+    color: aliceblue;
+
+}
+
+h2{
+    line-height: 80vh;
+    text-align: center;
+    color: rgb(241, 76, 244);
+    font-size: 60px;
+
+}
+
+
+.history{
+    position: relative;
+    margin: 2px auto;
+    width: 260px;
+    top: 110px;
+    text-align: center;
+
+}
+.history i{
+    background-color: tomato;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    width: 60px;
+    color: white;
+    box-shadow: 2px 4px 8px black;
+    transition: 0.5s ease-in-out;
+    border-radius: 36px 36px;
+}
+
+.history i:hover{
+    background-color: rgb(20, 6, 6);
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    width: 60px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 8px black;
+}
